@@ -14,7 +14,7 @@ class Home extends Controller {
             }
             $message = 'You are awesome';
 		} else {
-			$message = 'You suck';
+			$message = 'You are not welcome';
 		}
 		
         $this->view('home/index', ['message' => $message]);
