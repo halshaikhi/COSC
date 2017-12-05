@@ -7,4 +7,6 @@ class Reports extends Controller {
     public function admin() {
         $this->view('reports/admin');
     }
+	public function joins() {
+        $this->view('reports/joins');
 }
